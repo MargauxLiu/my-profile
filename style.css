@@ -1,0 +1,161 @@
+body{
+	font-size: 16px;
+	background-color: #F6ECBF
+}
+div{
+	background-color: #FCF9EA
+}
+p{
+	font-family: 'Maven Pro', sans-serif;
+}
+h1{
+    color: #b2945b;
+    font-family: 'Mansalva', cursive;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+.p-special{
+	font-family: 'Mansalva', cursive;
+}
+h2,h3,h4,h5{
+	color: #b2945b;
+	font-family: 'Maven Pro', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight:bold;
+}
+a{
+	text-decoration: none;
+	color: #b2945b;
+	font-size: 12px;
+	font-weight: bolder;
+	text-align: center;
+}
+a:hover{
+	color: #e3d888;
+}
+
+
+/#custom design with class/
+.container{
+	width: 800px;
+	margin: 30px auto;
+	text-align: center;
+}
+.card-head{
+	width: 800px;
+	margin: 10px auto;
+	padding: 30px;
+	text-align: center;
+	box-shadow: 0px 5px 20px #c36a2d;
+}
+.img-circle{
+	border-radius: 100%;
+	margin: 10px auto;
+}
+.card-origin{
+	width: 800px;
+	padding: 10px;
+	margin: 30px auto;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px #e3d888;
+	text-align: center;
+}
+.card-center{
+	background-image: url("images/china.png");
+	background-position: -500px -30px;
+	width: 700px;
+	margin: 30px auto;
+	padding: 40px;
+	box-shadow: 0px 10px 30px #f5f7dc;
+	border-radius: 6px;
+}
+.btn{
+	background:transparent;
+}
+.btn-orange{
+	background-color: #F6ECBF;
+	border-radius: 5px;
+	padding: 10px 10px;
+	width: 300px;
+	margin: 10px auto;
+}
+.card-status{
+	width: 800px;
+	padding: 10px;
+	margin: 30px auto;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px #e3d888;
+	text-align: center;
+}
+.card-status-body{
+	background-image: url("https://blog.go-today.com/wp-content/uploads/france-map.jpg");
+	background-position: 0px;
+	width: 700px;
+	margin: 30px auto;
+	padding: 40px;
+	box-shadow: 0px 10px 30px #f5f7dc;
+	border-radius: 6px;
+}
+.card-personality{
+	width: 800px;
+	padding: 10px;
+	margin: 30px auto;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px #e3d888;
+	text-align: center;
+}
+.card-contact{
+	width: 800px;
+	padding: 10px;
+	margin: 30px auto;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px #e3d888;
+	text-align: center;
+}
+.card-contact-body{
+	width: 700px;
+	margin: 30px auto;
+	padding: 30px;
+	box-shadow: 0px 10px 30px #f5f7dc;
+	border-radius: 6px;
+}
+.icon-inline {
+	padding: 0px;
+}
+.icon-inline li{
+	list-style: none;
+	padding: 30px;
+	size: 50px;
+	display: inline;
+}
+.icon-inline i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.icon-inline i:hover{
+	color: black;
+}
+@media(max-width:800px){
+	.container{
+		width: 700px;
+	}
+}
+@media(max-width:720px){
+	.container{
+		width: 600px;
+	}
+}
+@media(max-width:620px){
+	.container{
+		width: 500px;
+	}
+}
+@media(max-width:520px){
+	.container{
+		width: 400px;
+	}
+}
+
